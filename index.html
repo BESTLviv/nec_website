@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>NEC Challenge Lviv</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="icon" href="images/green_ebec_icon.png" sizes="192x192" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-33822955-1"></script>
+		<script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-33822955-1');
+		</script>
+
+	</head>
+
+
+	<body>
+		
+		<section class="cover-1 text-center"> <!--Головна-->
+			<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+				<div class="container">
+					<a class="navbar-brand" href="#">NEC</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse pull-xs-right justify-content-end" id="navbarSupportedContent">
+						<ul class="navbar-nav mt-2 mt-md-0">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Main<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#place">Place</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#orgs">Organisers</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#partn">Partners</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#cont">Contacts</a>
+							</li>
+							<!--<li class="nav-item">
+								<a class="btn btn-outline-white btn-outline" href="#">Знайти роботу</a>
+							</li>-->
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="cover-container pb-5">
+				<div class="cover-inner container">
+					<h1 class="jumbotron-heading"><strong>Take the Challenge!</strong></h1>
+					<!--<p class="lead ">European BEST Engineering Competitions</p>
+
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSfchrrcA1kArhqsqxSVtbrPzrhY6PX_8CCiyADLTWEtKd7_kA/viewform?usp=send_form" class="btn btn-primary btn-lg mb-2 mr-2 ml-2">Знайти роботу</a>
+
+					</p>-->
+
+					<p class="lead">16-20 May 2018<br>National University Lviv Polytechnic</p>
+					
+				</div>
+			</div>
+		</section>
+
+		<section class="features-1 text-center" id="about"> <!--Про проект-->
+			<div class="container">
+				<h2>National Engineering Competition</h2>
+				<div class="divider"></div>
+				<p class="lead">The National Stage of the Most Major Engineering Competition in Europe, conducted in two categories: Team Design and Case Study.<br><br>
+				The local stage of the competition was held in Lviv, Kiev, Vinnytsya and Zaporizhzhya. The engineering competitions are held
+				annually by the international student organization BEST. Teams - winners of local stages have the opportunity to compete
+				with each other very soon, May 16-20, at the national stage, which will be held in Lviv, organized by BEST Lviv.
+				<br><br>
+				Feel the innovation, combine creativity with technology and effective teamwork. During the National Engineering Competition
+				Challenge, we will know who will be able to wear the title of the most engineering team in Ukraine!</p>
+				<br>
+				<div class="row">
+					<div class="col-md-4 col-feature">
+						<div class="rounded-circle justify-center">
+							<em class="fa fa-3x fa-university"></em>
+						</div>
+						<h3>4 Universities</h3>
+					</div>
+					<div class="col-md-4 col-feature">
+						<div class="rounded-circle justify-center">
+							<em class="fa fa-3x fa-cog"></em>
+						</div>
+						<h3>2 Categories</h3>
+					</div>
+					<div class="col-md-4 col-feature">
+						<div class="rounded-circle justify-center">
+							<em class="fa fa-3x fa-users"></em>
+						</div>
+						<h3>32 Participants</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="text-left">
+			<div class="adaptive-wrap">
+					<iframe width="100%" src="https://www.youtube.com/embed/8CqByAjdygg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			</div>			
+		</section>
+
+		<section class="cta-5 text-center" id="place"> <!--Місце проведення-->
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-8 text-center text-lg-left">
+						<h2 class="mt-4 mb-2">Place</h2>
+						<p class="lead mb-3">Lviv Tech StartUP School, Akademika Kolessy 2</p>
+					</div>
+				</div>
+			</div>
+			<div id="map"></div>
+				<script src="js/maps.js"></script>
+			<!--YOU MUST REPLACE WITH YOUR OWN API KEY FOR THE MAP TO WORK-->
+			<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBptaDKT_ntSoNEytCnSang5JenaNAj_Us&callback=initMap">
+			</script>
+		</section>
+		
+		<section class="cover-2 text-left" id="orgs"> <!--Організатори-->
+			
+			<div class="cover-container">
+				<div class="cover-inner container">
+						<div class="row justify-center">
+							<div class="col-lg-5 mt-5 mb-5 text-center text-lg-left">
+								<h1 class="jumbotron-heading">BEST Lviv</h1>
+								<h3 class="jumbotron-heading">Organisers</h3>
+								<p class="lead"><b></strong>BEST</b> (Board of European Students of Technology) – is a nonprofit organization represented in 95 locations in 33 countries.
+								Since 1989, BEST has provided the exchange of knowledge and cooperation between students, companies and universities across
+								Europe.</p>
+							</div>
+						<div class="col-lg-5 offset-lg-2 mt-5 mb-5 text-center">
+							<img class="img-fluid mt-5 mb-5" src="images/BEST.png" >
+						</div>
+						<div class="col-md-6 text-center">
+								<img class="mb-4 img-fluid" src="images/BEST_map.png" >
+							</div>
+							<div class="col-md-6 text-center text-md-left" >
+								<h3 class="jumbotron-heading">Vision: Empovered Diversity</h3>
+								<p class="lead">People understand and respect different cultures and societies. An environment where diversity is
+								in power, supports people in the realization of their potential and responsible activities.</p>
+								<h3 class="jumbotron-heading">Mission: Developing Students</h3>
+								<p class="lead">BEST helps students achieve international thinking, better understanding of cultures and peoples,
+								and develop their skills in the international environment.</p>
+								<p><a href="http://best-lviv.org.ua" target="_blank" class="btn btn-outline-success btn-lg mb-2 mr-2 ml-2 pill-btn">Know more</a></p>
+							</div>
+					</div>
+				</div>
+			</div>
+			<br><br>
+			
+		</section>
+		
+
+		<!-- Партнери -->
+		
+		<section class="content-2" id="partn">
+			<div class="container-fluid">
+				<!-- РІЧНІ -->
+				<div class="row justify-center">
+					<h2 class="mt-4 mb-2">Annual Partners</h2>
+				</div>
+				<br>
+				<center>
+					<a href="https://zoomsupport.com/" target="_blank"><img  src="images/partners/zoom_support.png" alt="Zoom Support" class="partners_1"></a>
+					<a href="https://tickets.ua/" target="_blank"><img  src="images/partners/Global_Logic.png" alt="GlobalLogic" class="partners_1"></a>
+					<a href="https://dataart.ua/" target="_blank"><img src="images/partners/DA-logo.png" alt="DataArt" class="partners_1"></a>
+				</center>
+				<!-- СПОНСОРИ-->
+				<div class="row justify-center">
+					<h2 class="mt-4 mb-2" style="text-align: center;">Partners</h2>
+				</div>
+				<br>
+				<center>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/melexis.png" alt="HUAWEI" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/Stanley NEW logo (1).png" alt="HUAWEI" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/knees.jpg" alt="HUAWEI" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/zernovyta_logo___brown_yellowback.png" alt="HUAWEI" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/diacom.jpg" alt="HUAWEI" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/everest.jpg" alt="HUAWEI" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/energoatom.png" alt="HUAWEI" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/dialog.jpg" alt="HUAWEI" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/pluton.png" alt="HUAWEI" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/DW Black (1) [Перетворений].png" alt="HUAWEI" class="partners_3"></a>
+
+
+
+					<a href="https://www.infopulse.com/" target="_blank"><img  src="images/partners/hit24.png" alt="Infopulse" class="partners_2"></a>
+					<a href="https://www.softserveinc.com/en-US/" target="_blank"><img src="images/partners/morsh.jpg" alt="SoftServe" class="partners_2"></a>
+					<a href="http://www.sombrainc.com/" target="_blank"><img src="images/partners/Levada.png" alt="Sombra" class="partners_2"></a>
+					<a href="https://flex.com/" target="_blank"><img src="images/partners/dellavie.png" alt="Flextronix" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/zp.jpg" alt="HUAWEI" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/bob.jpg" alt="HUAWEI" class="partners_3"></a>
+					<a href="https://consumer.huawei.com/ua/" target="_blank"><img src="images/partners/LOGO_CURVED_EMBLEM (1).png" alt="HUAWEI" class="partners_3"></a>
+
+
+				</center>
+				<!-- ІНФОРМАЦІЙНІ 
+				<div class="row justify-center">
+					<h2 class="mt-4 mb-2" style="text-align: center;">Інформаційні партнери</h2>
+				</div>
+				<br>
+				<center>
+					<a href="http://rialviv.com/" target="_blank"><img  src="images/partners/info/RIA.png" alt="RIA Lviv" class="partners_info"></a>
+					<a href="https://lviv.com/" target="_blank"><img src="images/partners/info/lvivcom.png" alt="LVIV.COM" class="partners_info"></a>
+					<a href="https://www.facebook.com/pg/radiolembergfm/" target="_blank"><img src="images/partners/info/lemberg.png" alt="Radio Lemberg" class="partners_info"></a>
+					<a href="https://www.facebook.com/pg/lembergtv/" target="_blank"><img src="images/partners/info/lembergTV.png" alt="Телеканал Lemberg TV" class="partners_info"></a>
+					<a href="https://moemisto.ua/lviv" target="_blank"><img src="images/partners/info/misto.png" alt="MoeMisto.ua" class="partners_info"></a>
+					<a href="https://studlava.com" target="_blank"><img src="images/partners/info/studlava.png" alt="Studlava" class="partners_info"></a>
+					<a href="http://studway.com.ua/" target="_blank"><img src="images/partners/info/studway.png" alt="StudWay" class="partners_info"></a>
+				</center>
+				 -->
+				<!-- ІНШІ -->
+				<div class="row justify-center">
+					<h2 class="mt-4 mb-2">Supported By</h2>
+				</div>
+				<br>
+				<center>
+					<a href="http://city-adm.lviv.ua/" target="_blank"><img style="max-width: 170px;" src="images/partners/lviv_adm.png" alt="Львівська міська рада" class="partners_2"></a>
+					<a href="http://lp.edu.ua/" target="_blank"><img style="max-width: 170px;" src="images/partners/NULP.png" alt="Львівська політехніка" class="partners_nulp_fix"></a>
+					<a href="http://lp.edu.ua/" target="_blank"><img style="max-width: 170px;" src="images/partners/tss-logo.png" alt="Tech StartUp School" class="partners_nulp_fix"></a>
+				</center>
+			</div>
+		</section>
+
+
+
+
+		
+		
+		
+
+		
+		<footer class="footer-4" id="cont">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h4 class="pt-4">Email</h4>
+						<p><a href="mailto:ejf.lviv@gmail.com" target="_blank">lviv@best.eu.org</a></p>
+
+						<ul class="social">
+							<li><a href="https://www.facebook.com/events/136038500436385/" title="Facebook EJF" class="fa fa-facebook"></a></li>
+							<li><a href="https://www.instagram.com/ejflviv/?hl=en" title="Instagram EJF" class="fa fa-instagram"></a></li>
+							<li><a href="https://www.flickr.com/photos/bestlviv/albums" title="Flickr" class="fa fa-flickr"></a></li>
+							<li><a href="https://www.instagram.com/best_lviv/?hl=en" title="Instagram BEST Lviv" class="fa fa-instagram"></a></li>
+							<li><a href="https://www.facebook.com/BEST.Lviv/?ref=br_rs" title="Facebook BEST Lviv" class="fa fa-facebook"></a></li>
+							<!--<div class="clear"></div>-->
+						</ul>
+					</div>
+					<div class="col-md-12 text-center">
+						<p class="copyright">Copyright &copy; BEST Lviv. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Placed at the end of the document so the pages load faster -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
